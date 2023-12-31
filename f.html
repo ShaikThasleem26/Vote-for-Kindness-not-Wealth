@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <!--favicon-->
+        <link rel="icon" href="b11.jpeg" title="gym icons">
+     <meta charset="UTF-8">
+          
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="form.css" rel ="stylesheet">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ELECTION</title>
+        <link rel="stylesheet" href="form_1.css">
+    </head>
+    <body>
+        <div class="contact-form">
+            <form action="f.php" method="POST">
+                <h1>ISSUE FORM</h1>
+                <label style="color:purple">NAME:</label>
+                <input type="text" name="name" placeholder="Enter your name" required>    
+
+                <label style="color:purple">EMAIL ID:</label>
+                <input type="email" name="email" placeholder="Enter your email" required>    
+                
+                <label style="color:purple">PHONE NUMBER:</label>
+                <input type="text" name="number" placeholder="Enter your Mobile number" required>        
+                
+                <label for="address" style="color:purple;">ADDRESS:</label>
+                <select id="address" name="address" required>
+                        <option value ="Address">Select your address</option>
+                        <option value="kurnool">Kurnool</option>
+                        <option value="kadapa">Kadapa</option>
+                        <option value="Anatapur">Anatapur</option>
+                        <option value="pulivendula">Pulivendula</option>
+                        <option value="Nellore">Nellore</option>
+                        <option value="Chittor">Chittoor</option>
+                        <option value="Annamayya">Annamayya</option>
+                        <option value="Tirupathi">Tirupathi</option>
+                        <option value="Viskapatnam">Viskapatnam</option>
+                        <option value="Srikakulam">Srikakulam</option>
+                        <option value="Dhone">Dhone</option>
+                        <option value="Kovvur">Kovvur</option>
+                        <option value="Kalyandurg">Kalyandurg</option>
+                        <option value="Ponnur">Ponnur</option>
+                        <option value="thuni">Thuni</option>
+                        <option value="Salar">Salar</option>
+                </select>
+
+                <label for="issue" style="color:purple;">ISSUE:</label>
+                <input type="text" name="issue" placeholder="Mark your issue" required>
+
+                <a href=""><input type="submit" value="submit"></a>
+            </form>
+        </div>
+    </body>
+    </html>

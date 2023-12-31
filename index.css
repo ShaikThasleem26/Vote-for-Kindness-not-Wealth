@@ -1,0 +1,30 @@
+ul{
+    list-style-type: none;
+    color: blanchedalmond;
+    
+}
+body{
+background-image:url("aaa.jpg");
+background-size:cover;
+}
+li{
+    float: right;
+color: black;
+}
+a{
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    color: green;
+}
+
+
+    
+.lo {
+    width: 70px;
+    height: 100%;
+}
+button{
+backgroud-color:green;
+}
+
